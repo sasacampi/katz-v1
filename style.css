@@ -57,26 +57,16 @@
 
 #nav-logo {
     font-family: 'Fredoka', sans-serif;
-}
-    
-header .logo {
-font-size:3rem;
-color:#333;
-font-weight:bolder;
+    color:#333;
+    font-size: 3.5rem;
+    text-decoration: none;
+    font-weight: 700;
 }
 
-header .navbar a {
-    font-size: 2rem;
-    padding: 0 2rem;
-    color:#666;
-    font-family: 'Poppins', sans-serif;
+#nav-logo span{
+    color: orange;
 }
 
-header .navbar a:hover {
-    color:var(--orange);
-
-} 
-    
 .topnav .icons a {
     text-decoration: none;
   }
@@ -92,29 +82,28 @@ header .navbar a:hover {
     color:var(--orange);
     }
 
-header #toggler {
-    display: none;
-
-}
-
-header .fa-bars {
-    font-size: 2rem;
-    color: #333;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    border: 0.1rem solid rgba (0, 0, 0, 0.3);
-    display: none;
-}
-
-.carousel-bg .carousel-inner .item {
-  background-color: darkslategrey;
-  background-size: cover;
-  background-position: center;
-  min-height: 360px;
-} 
-
-
+    html,
+    body {
+      height: 100%;
+    }
+    .bs-fullscreen {
+      height: 100%;
+    }
+    .bs-fullscreen .carousel,
+    .bs-fullscreen .item,
+    .bs-fullscreen .active {
+      height: 100%;
+    }
+    .bs-fullscreen .carousel-inner {
+      height: 90%;
+    }
+    
+    .carousel-bg .carousel-inner .item {
+      background-color: darkslategrey;
+      background-size: cover;
+      background-position: center;
+      min-height: 360px;
+    }
 
 
 
