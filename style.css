@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --orange: #ff8c00;
 }
@@ -62,8 +63,9 @@
     float: left;
     font-size: 3.5rem;
     padding: 5px 0px 0px 10px;
+    text-decoration: none;
     }
-
+    
 #nav-logo span {
     color:var(--orange);
 
@@ -84,18 +86,28 @@
     color:var(--orange);
     }
 
-
-.content {
-    max-width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    text-align: center;
-    color: #ffffff;
+.btn {
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: black;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
+.btn :hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
 html,
 body {
   height: 100%;
@@ -106,7 +118,7 @@ body {
 .bs-fullscreen .carousel,
 .bs-fullscreen .item,
 .bs-fullscreen .active {
-  height: 100%;
+  height: 95%;
 }
 .bs-fullscreen .carousel-inner {
   height: 100%;
