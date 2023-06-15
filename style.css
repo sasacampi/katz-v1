@@ -139,6 +139,23 @@
     font-family:Inter;
   }
   
+  .header{
+    background-color: orange;
+    
+  }
+  .card-title {
+    overflow: hidden;
+    
+  }
+  .card-title p {
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 25px;
+
+  }
+
   .card {
     width: 300px;
     min-width: 300px;
@@ -180,8 +197,8 @@
   }
   
   p {
-    font-size: .8rem;
-    opacity: .6;
+    font-size: 1.2rem;
+    opacity: .8;
     margin-top: 10px;
   }
   
@@ -224,7 +241,7 @@
     width:100%;
     overflow:auto;
     padding-top: 100px;
-    paddimg-left:60px;
+    padding-left:60px;
     padding-right: 50px;
     scroll-behavior:smooth;
   }
@@ -243,7 +260,7 @@
   
   .btn{
     min-width:60px;
-    margin:auto 30px;
+    margin: 300px 0 0 30px;
     height:60px;
     border-radius:20px;
     background:#fff;
@@ -295,53 +312,11 @@
     pointer-event:none;
   }
 
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
 
-  
-/* TO DO
 /* media queries */
-/* @media (max-width: 991px) {
-    html {
-        font-size: 55.5%;
-        
-    }
-    header {
-        padding: 2rem;
-    }
-} */
-
-
-/* @media (max-width: 768px) {
-    header .fa-bars{
-        display: block;
-        
-    }
-    header .navbar{
-        position: absolute;
-        top: 100%; right: 0; left:0;
-        background:#eee;
-        border-top: 0.1rem solid rgba(0,0,0,.1);
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-    header #toggler:checked ~ .navbar{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
-
-    header .navbar a{
-    margin: 1.5rem;
-    padding: 1.5rem;
-    background:#fff;
-    border: 1rem solid rgba(0,0,0,.1);
-    display: block;
-    }
-
-    @media (max-width: 450px) {
-        html {
-            font-size: 50%;
-            
-        }
-        header {
-            padding: 2rem;
-        }
-    }
-    
-} */
