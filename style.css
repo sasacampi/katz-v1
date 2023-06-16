@@ -341,23 +341,17 @@ h2,p{margin:.5em 1em}
 }
 
 .benefits-line {
-  position: relative;
-  display: inline; 
-  justify-content: space-between;
-  list-style: none;
-  padding: 0px 50px 0px 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
   
 }
 
 .benefits-line li {
-    flex: 1;
-    font-size: 1rem;
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 80px;
+  display: inline-block;
+  min-width: 5em;
+  margin: 0 5em;
 }
 
 .benefits-line li img {
@@ -379,4 +373,5 @@ h2,p{margin:.5em 1em}
   font-size: 2rem;
   
 }
+
 /* media queries */
