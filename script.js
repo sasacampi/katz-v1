@@ -14,3 +14,20 @@ function handleScrollPrev (direction) {
 next.addEventListener('click', handleScrollNext);
 prev.addEventListener('click', handleScrollPrev);
 
+
+const scroller = new LocomotiveScroll({
+  el: document.querySelector('[data-scroll-section]'),
+  smooth: true,
+  lass: 'is-inview',
+    getSpeed: true,
+    getDirection: true,
+    reloadOnContextChange: true
+});
+
+// DATA BACKGROUND IMAGE
+  var pageSection = $("*");
+  pageSection.each(function (indx) {
+    if ($(this).attr("data-background")) {
+      $(this).css("background", "url(" + $(this).data("background") + ")");
+    }
+  });
