@@ -156,7 +156,12 @@
 
   }
 
+.slider {
+  display: flex;
+}
+
   .card {
+    flex: 1;
     width: 300px;
     min-width: 300px;
     height:auto;
