@@ -355,14 +355,13 @@ h2,p{margin:.5em 1em}
 }
 
 .benefits-line li img {
-  height: 50px;
-  width: 50px;
-  margin-bottom: 5px;
+  height: 80px;
+  width:  80px;
   margin-top: 20px;
 }
 
 .benefits-line p {
-  height: 250px;
+  height: 100px;
   width: 250px;
  
 }
