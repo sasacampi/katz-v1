@@ -244,10 +244,10 @@
     align-items:center;
     justify-content:flex-start;
     width:100%;
-    overflow:auto;
+    overflow: hidden;
     padding-top: 100px;
     padding-left:60px;
-    padding-right: 50px;
+    padding-right: 70px;
     scroll-behavior:smooth;
   }
   
@@ -287,7 +287,6 @@
   
   .slider {
     display:flex;
-    alogn-items:center;
     justify-content:center;
     background:rgb(242,243,248);
     width:100%;
@@ -297,10 +296,10 @@
   
   .slider:after {
     content:'';
-    left:98px;
+    left:90px;
     height:90vh;
     position:absolute;
-    width:150px;
+    width: 130px;
     z-index:100;
     background: linear-gradient(90deg, rgb(242,243,248) 0%,rgba(242,243,248,0)  100%);
     pointer-event:none;
@@ -308,7 +307,7 @@
   
   .slider:before {
     content:'';
-    right:98px;
+    right:90px;
     height:90vh;
     position:absolute;
     width:150px;
@@ -320,7 +319,7 @@
 #wrap {
     width:900px;
     margin:10px auto;
-    
+     
 }
 h2,p{margin:.5em 1em}
 
