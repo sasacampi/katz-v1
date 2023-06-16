@@ -245,9 +245,7 @@
     justify-content:flex-start;
     width:100%;
     overflow: hidden;
-    padding-top: 100px;
-    padding-left:60px;
-    padding-right: 70px;
+    padding: 50px 50px 50px 50px;
     scroll-behavior:smooth;
   }
   
