@@ -876,24 +876,60 @@ h2,p{margin:.5em 1em}
   }
 }
 // fim do grid de produtos
+// inicio da newsletter
 
 
+/* Add some padding and a grey background color to containers */
+.container-newsletter {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
 
 
+.container-newsletter h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  font-size: 1.3em;
+  padding-bottom: 0px;
+}
+
+.container-newsletter h3 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.container-newsletter p {
+  text-align: center;
+  font-size: 1em;
+}
+
+input[type=text], input[type=submit] {
+  text-align: center;
+  width: 50%;
+  padding: 12px;
+  margin: 3px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.8px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: orange;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+//fim da newsletter
 //inicio do footer 
 
 *, *:before, *:after {
